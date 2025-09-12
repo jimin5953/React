@@ -1,0 +1,12 @@
+int menu_display(void)
+{
+int select;
+system("cls");
+printf("간식 만들기\n\n");
+printf("1. 햄버거 \n");
+printf("2. 스파게티\n");
+printf("3. 프로그램 종료\n\n");
+printf("메뉴번호 입력>");
+select=getch()-48;
+return select;
+}
